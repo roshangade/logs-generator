@@ -6,7 +6,7 @@ var timer = setInterval(() => {
 
 var stop = (i) => {
     console.log('============================', i)
-    if (i == 2) {
+    if (i == 1000000000) {
         clearInterval(timer)
     }
 }
