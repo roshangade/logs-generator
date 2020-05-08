@@ -4,9 +4,9 @@ var timer = setInterval(() => {
     logger()
 }, 25)
 
-var stop = (i) => {
-    console.log('============================', i)
-    if (i == 1000000000) {
+var stop = (j) => {
+    console.log('============================', j)
+    if (j == 1000000000) {
         clearInterval(timer)
     }
 }
